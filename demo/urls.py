@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^account/', include('registration.backends.simple.urls')),
     url(r'', include('app.urls')),
     url(r'^bare/', include('bare.urls')),
+    url(r'^bt/', include('bootstrap_template.urls')),
 ]

@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'managedkaos.pythonanywhere.com']
 INSTALLED_APPS = [
     'app',
     'bare',
+    'bootstrap_template',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
